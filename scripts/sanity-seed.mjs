@@ -53,6 +53,7 @@ const siteSettings = {
     { _key: "devto", platform: "devto", label: "dev.to", url: "https://dev.to/gbubemi_attah_8220489db16" },
     { _key: "linkedin", platform: "linkedin", label: "LinkedIn", url: "#" },
     { _key: "x", platform: "x", label: "X", url: "#" },
+    { _key: "youtube", platform: "youtube", label: "YouTube", url: "https://www.youtube.com/@gbube054" },
   ],
 };
 

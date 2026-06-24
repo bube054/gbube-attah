@@ -71,7 +71,7 @@ const siteSettings = defineType({
         defineArrayMember({
           type: "object",
           fields: [
-            defineField({ name: "platform", title: "Platform key", type: "string", description: "github / medium / devto / linkedin / x" }),
+            defineField({ name: "platform", title: "Platform key", type: "string", description: "github / medium / devto / linkedin / x / youtube" }),
             defineField({ name: "label", title: "Label", type: "string" }),
             defineField({ name: "url", title: "URL", type: "string" }),
           ],

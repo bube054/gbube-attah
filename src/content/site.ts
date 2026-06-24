@@ -15,6 +15,7 @@ export const SOCIALS: SocialLink[] = [
   { platform: "devto", label: "dev.to", url: "https://dev.to/gbubemi_attah_8220489db16" },
   { platform: "linkedin", label: "LinkedIn", url: "#" },
   { platform: "x", label: "X", url: "#" },
+  { platform: "youtube", label: "YouTube", url: "https://www.youtube.com/@gbube054" },
 ];
 
 /** Default global chrome — overridden by the `siteSettings` Sanity singleton. */
