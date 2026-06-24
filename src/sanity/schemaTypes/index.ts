@@ -41,6 +41,8 @@ const siteSettings = defineType({
     str("email", "Email"),
     str("resumeUrl", "Résumé URL"),
     str("githubUrl", "GitHub URL"),
+    str("bookingUrl", "Booking URL (cal.com / Calendly) — leave empty to hide the Book button"),
+    str("bookingLabel", "Booking button label (e.g. Book a call)"),
     str("githubUsername", "GitHub username (powers live repos & stats)"),
     str("devtoUsername", "dev.to username (powers live articles)"),
     str("mediumUsername", "Medium username (powers live articles)"),

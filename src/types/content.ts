@@ -40,6 +40,9 @@ export interface SiteSettings {
   email: string;
   resumeUrl: string;
   githubUrl: string;
+  /** cal.com / Calendly scheduling link + the CTA label. Empty hides the button. */
+  bookingUrl: string;
+  bookingLabel: string;
   /** Handles used to pull live data — repos from GitHub, posts from dev.to/Medium. */
   githubUsername: string;
   devtoUsername: string;

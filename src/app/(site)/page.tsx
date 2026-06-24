@@ -37,6 +37,8 @@ export default async function Page() {
         email={settings.email}
         resumeUrl={settings.resumeUrl}
         githubUrl={settings.githubUrl}
+        bookingUrl={settings.bookingUrl}
+        bookingLabel={settings.bookingLabel}
       />
     </main>
   );

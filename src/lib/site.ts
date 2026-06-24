@@ -8,7 +8,7 @@ import type { SiteSettings } from "@/types/content";
 import { mergeDefaults, sanityFetch } from "./sanity";
 
 const QUERY = `*[_type == "siteSettings"][0]{
-  name, role, email, resumeUrl, githubUrl,
+  name, role, email, resumeUrl, githubUrl, bookingUrl, bookingLabel,
   githubUsername, devtoUsername, mediumUsername,
   availableLabel, available, footerCopyright,
   seo{ title, description, "ogImage": ogImage.asset->url },
