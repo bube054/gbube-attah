@@ -30,7 +30,7 @@ const siteSettings = {
   email: "hello@gbubemi.dev",
   resumeUrl: "/Gbubemi-Attah-Resume.pdf",
   githubUrl: "https://github.com/bube054",
-  bookingUrl: "https://cal.com/attah-gbubemi",
+  bookingUrl: "https://cal.com/attah-gbubemi/30min",
   bookingLabel: "Book a call",
   githubUsername: "bube054",
   devtoUsername: "gbubemi_attah_8220489db16",
