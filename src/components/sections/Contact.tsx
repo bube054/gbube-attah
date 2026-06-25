@@ -1,4 +1,5 @@
 import { BookButton } from "@/components/BookButton";
+import { EmailButton } from "@/components/EmailButton";
 import { Reveal } from "@/components/Reveal";
 import { SectionLabel } from "@/components/SectionLabel";
 import { HOME_COPY } from "@/content/home";
@@ -37,9 +38,11 @@ export function Contact({
         <div className="contact-actions">
           {hasBooking && <BookButton bookingUrl={bookingUrl} label={bookingLabel} className="btn btn-primary btn-lg" />}
           {!!email?.trim() && (
-            <a href={`mailto:${email}`} className={`btn ${hasBooking ? "btn-ghost" : "btn-primary"} btn-lg`.trim()}>
-              {copy.contactEmailCta} →
-            </a>
+            <EmailButton
+              email={email}
+              label={copy.contactEmailCta}
+              className={`btn ${hasBooking ? "btn-ghost" : "btn-primary"} btn-lg`.trim()}
+            />
           )}
           {hasLink(resumeUrl) && (
             <a href={resumeUrl} className="btn btn-ghost btn-lg" download>
